@@ -1,0 +1,46 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.total{
+    display: flex;
+    justify-content: center;
+
+}
+
+.accordian{
+    display: flex;
+    justify-content: center;
+
+}
+
+.add_Circle{
+    width: 20px;
+    height: 20px;
+}
+
+.edit{
+    display: flex;
+    justify-content: right;
+    padding: 5px;
+}
+.editBtn{
+    width: 50px;
+    height: 35px;
+    background-color: blue;
+}
+
+.del{
+    display: flex;
+    justify-content: right;
+    padding: 5px;
+}
+
+.delBtn{
+    width: 50px;
+    height: 35px;
+    background-color: red;
+}

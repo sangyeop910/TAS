@@ -1,116 +1,72 @@
-.container {
-  padding: 0 2rem;
-}
-
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
+.container{
+  width: 100vw;
+  height:100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-grow: 1;
+  background-image: url('/background.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.total{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.logInArea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+.logInForm{
+  border: none;
+  padding: 30px;
+  border-radius: 5px;
+  width: 400px;
+  height: 500px;
+  /*box-shadow: 1px 1px 1px 1px rgb(67, 67, 67);*/
+  background : none;
 }
 
-.title,
-.description {
+.pinSubmit{
+  background-color: #FFC800;
+  font-size: 15px;
+  width: 340px;
+  height: 40px;
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.headText{
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  font-size: 20px;
+  color: white;
   text-align: center;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
+.pinInput{
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+  align-items: center;
+
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+.Submit{
+  width: 50px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #FFC800;
+  color: white;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+.timer{
+  color: white;
 }
